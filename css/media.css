@@ -1,0 +1,389 @@
+/*Extra small device*/
+@media(max-width: 575.98px) {
+    .navbar-light .navbar-toggler {
+        border-color: none;
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar button:focus {
+        outline: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:before {
+        background: none;
+    }
+
+    .banner_text h1 {
+        margin-top: 50px;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner_text a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about_text p {
+        font-size: 14px;
+    }
+
+    .about_img img {
+        margin-top: 35px;
+    }
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .service_heading h2 {
+        margin-bottom: 40px;
+    }
+
+    #our_skill {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .skill_heading h2 {
+        margin-bottom: 40px;
+    }
+
+    .skill_img img {
+        margin-top: 30px;
+    }
+
+    #protfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .protfolio_heading h2 {
+        margin-bottom: 40px;
+        ;
+    }
+
+    #our_blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog_heading h2 {
+        margin-bottom: 40px;
+    }
+
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .testimonial_heading h2 {
+        margin-bottom: 40px;
+    }
+
+    .item_img img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact_heading h2 {
+        margin-bottom: 40px;
+    }
+
+    .mb {
+        margin-bottom: 15px;
+    }
+
+    .form_full_item a {
+        padding: 10px 20px;
+    }
+
+    #company_logo {
+        padding-bottom: 50px;
+    }
+
+    .logo_item img {
+        width: 100%;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer_item i {
+        margin-right: 5px;
+    }
+
+    .footer_item p {
+        font-size: 14px;
+    }
+
+}
+
+/*Small Device*/
+@media(min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar-light .navbar-toggler {
+        border-color: none;
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar button:focus {
+        outline: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:before {
+        background: none;
+    }
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner_text h1 {
+        margin-top: 50px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about_text p {
+        font-size: 14px;
+    }
+
+    .about_img img {
+        margin-top: 35px;
+    }
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .service_heading p {
+        font-size: 14px;
+    }
+
+    #our_skill {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .skill_heading p {
+        font-size: 14px;
+    }
+
+    .skill_img img {
+        margin-top: 30px;
+    }
+
+    #protfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .protfolio_heading p {
+        font-size: 14px;
+    }
+
+    .protfolio_btn ul li {
+        padding: 5px 15px;
+    }
+
+    #our_blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog_heading p {
+        font-size: 14px;
+    }
+
+    .blog_item h4 {
+        font-size: 23px;
+    }
+
+    .blog_item p {
+        font-size: 14px;
+    }
+
+    .blog_item a {
+        font-size: 14px;
+    }
+
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .testimonial_heading p {
+        font-size: 14px;
+    }
+
+    .item_img img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .item_text p {
+        font-size: 14px;
+    }
+
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact_heading p {
+        font-size: 14px;
+    }
+
+    .mb {
+        margin-bottom: 15px;
+    }
+
+    #company_logo {
+        padding-bottom: 50px;
+    }
+
+    .logo_item img {
+        width: 80%;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+/*Mediam Device*/
+@media(min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-light .navbar-toggler {
+        border-color: none;
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar button:focus {
+        outline: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:before {
+        background: none;
+    }
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner_text h1 {
+        margin-top: 50px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about_img img {
+        margin-top: 35px;
+    }
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #our_skill {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .skill_img img {
+        margin-top: 30px;
+    }
+
+    #protfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #our_blog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mb {
+        margin-bottom: 15px;
+    }
+
+    #company_logo {
+        padding-bottom: 50px;
+    }
+
+    .logo_item img {
+        width: 60%;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+/*Large Device*/
+@media(min-width: 992px) and (max-width: 1199.98px) {
+
+    .banner_text p:before {
+        height: 80px;
+    }
+
+    .skill_img img {
+        height: 365px;
+    }
+
+    .about_img img {
+        height: 385px;
+    }
+
+}
