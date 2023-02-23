@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // navbar bg
-    $(window).scroll(function () {
+    $(window).on('scroll',function () {
         var scrolling = $(this).scrollTop();
         if (scrolling > 200) {
             $('.navbar').addClass('navbg');
@@ -56,17 +56,9 @@ $(document).ready(function () {
     });
 
     // isotope end   
+    
 
-
-    //banner slider
-    $('.banner_slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        arrows: false,
-        autoplaySpeed: 5000,
-
-    });
+   
 
     //testimonial slider
     $('.autoplay').slick({
@@ -162,13 +154,13 @@ $('.collapse a').on('click', function () {
     
 
     //back to top button
-    $('.back_top').click(function () {
+    $('.back_top').on('click',function () {
         $('html,body').animate({
             scrollTop: 0
         }, 1500);
     });
 
-    $(window).scroll(function () {
+    $(window).on('scroll',function () {
         var scrolling = $(this).scrollTop();
         if (scrolling > 300) {
             $('.back_top').fadeIn();
@@ -189,13 +181,12 @@ $('.collapse a').on('click', function () {
     
     //preloader
     $(window).on('load', function(){
-        $('.preloader').delay(500).fadeOut(500);
+        $('.preloader').delay(300).fadeOut(500);
     }); 
 
 
 
 });
-
 
 
 
