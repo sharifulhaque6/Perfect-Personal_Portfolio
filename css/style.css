@@ -1,3 +1,29 @@
+/* 
+------------------
+Template Name: Perfect - Personal Portfolio Template
+Author: Shariful74
+Author Email: sh.sorif6@gmail.com
+Version: 1.00
+
+------------------
+Table of content
+------------------
+1/ Navbar Part
+2/ Banner Part
+3/ About Part
+4/ Service Part
+5/ Skills Part
+6/ Portfolio part
+7/ Blog Part
+8/ Client Part
+9/ Contact form
+10/ Sponsorship Part
+11/ Footer Part
+12/ Preloader Part 
+
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -13,15 +39,7 @@ ul {
     text-decoration: none;
 }
 
-/*Common css end*/
-
-/*font family
-font-family: 'Source Sans Pro';
- font-family: 'Montserrat';
-
-*/
-
-/*====Header css start====*/
+/*==== Navbar Part start ====*/
 .navbar {
     position: fixed;
     width: 100%;
@@ -94,9 +112,9 @@ ul.navbar-nav.ml-auto {
     from{top:-100px}
     to{top: 0}
 }
-/*=====Header css end=====*/
+/*===== Navbar Part end =====*/
 
-/*====banner css start====*/
+/*==== Banner Part start ====*/
 #banner {
     position: relative;
     background: url('../images/banner.jpg');
@@ -108,7 +126,7 @@ ul.navbar-nav.ml-auto {
 .banner_text h1 {
     font-family: 'Source Sans Pro';
     font-weight: 700;
-    margin-top: 250px;
+    margin-top: 200px;
     font-size: 60px;
     padding-bottom: 20px;
     color: #08D665;
@@ -159,10 +177,13 @@ ul.navbar-nav.ml-auto {
 .banner_text a:hover {
     background: transparent;
 }
+.banner_img {
+    text-align: center;
+}
 
-/*=======banner css end=======*/
+/*======= Banner Part end =======*/
 
-/*======about css start======*/
+/*====== About Part start ======*/
 #about {
     background: #101010;
     padding-top: 100px;
@@ -229,9 +250,9 @@ ul.navbar-nav.ml-auto {
     color: #08D665;
 }
 
-/*======about css end======*/
+/*====== About Part end ======*/
 
-/*======service css start======*/
+/*====== Service Part start ======*/
 #service {
     background: #000;
     padding-top: 100px;
@@ -343,9 +364,9 @@ ul.navbar-nav.ml-auto {
     color: #fff;
 }
 
-/*======service css end======*/
+/*====== Service Part end ======*/
 
-/*====skill css start====*/
+/*==== Skills Part start ====*/
 #our_skill {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -394,7 +415,6 @@ ul.navbar-nav.ml-auto {
     opacity: 0.7;
 }
 
-/*====skill css end====*/
 
 /*progress bar css start*/
 .progress_item h3 {
@@ -456,7 +476,9 @@ ul.navbar-nav.ml-auto {
 
 /*progress bar css end*/
 
-/*protfolio css start*/
+/*==== Skills Part end ====*/
+
+/*==== Portfolio part start ====*/
 #protfolio {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -564,9 +586,9 @@ ul.navbar-nav.ml-auto {
 .p_img_item:hover .overly span{
     opacity: 1;
 }
-/*protfolio css end*/
+/*==== protfolio css end ====*/
 
-/*our_blog css start*/
+/*==== Blog Part start ====*/
 #our_blog {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -670,9 +692,9 @@ ul.navbar-nav.ml-auto {
     color: #fff;
 }
 
-/*our_blog css end*/
+/*==== Blog Part end ====*/
 
-/*client css start*/
+/*==== Client Part start ====*/
 #testimonial {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -786,9 +808,9 @@ ul.navbar-nav.ml-auto {
     opacity: 1;
 }
 
-/*client css end*/
+/*==== Client Part end ====*/
 
-/*contact form css start*/
+/*==== Contact form start ====*/
 #contact {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -859,9 +881,9 @@ ul.navbar-nav.ml-auto {
     border-color: #08D665;
 }
 
-/*contact form css end*/
+/*==== Contact form end ====*/
 
-/*company logo css start*/
+/*==== Sponsorship Part start ====*/
 #company_logo {
     padding-bottom: 100px;
     background: #101010;
@@ -871,9 +893,9 @@ ul.navbar-nav.ml-auto {
     width: 50%;
 }
 
-/*company logo css end*/
+/*==== Sponsorship Part End ====*/
 
-/*footer css start*/
+/*==== Footer Part start ====*/
 #footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -902,10 +924,12 @@ ul.navbar-nav.ml-auto {
     margin-top: 20px;
     opacity: 0.3;
 }
+.footer_item a{
+    color: #fff;
+}
+/*==== Footer Part end ====*/
 
-/*footer css end*/
-
-/*back to top css start*/
+/*==== back to top part start ====*/
 .back_top{
     position: fixed;
     bottom: 20px;
@@ -923,10 +947,10 @@ ul.navbar-nav.ml-auto {
     line-height: 40px;
     font-size: 20px;
 }
-/*back to top css end*/
+/*==== back to top part end ====*/
 
 
-/*preloader start*/
+/*===== preloader part start =====*/
 .preloader{
     position: fixed;
     background: #101010;
@@ -946,7 +970,7 @@ ul.navbar-nav.ml-auto {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #9370DB;
+    border-top-color: #fff;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -959,7 +983,7 @@ ul.navbar-nav.ml-auto {
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #BA55D3;
+    border-top-color: #08D665;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -972,7 +996,7 @@ ul.navbar-nav.ml-auto {
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #FF00FF;
+    border-top-color: #4d4d4d;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -1001,7 +1025,7 @@ ul.navbar-nav.ml-auto {
     }
 }
 
-/*preloader end*/
+/*===== preloader part end =====*/
 
 
 
